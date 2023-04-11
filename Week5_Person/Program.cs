@@ -131,12 +131,13 @@
             }
         }
 
+        //Display person details
         static void DisplayPersons(Person[] persons)
         {
             Console.WriteLine("ID\tFirst Name\tLast Name\tAge");
-            foreach (Person person in persons)
+            foreach (Person people in persons)
             {
-                Console.WriteLine("{0}\t{1}\t\t{2}\t\t{3}", person.Id, person.FirstName, person.LastName, person.Age);
+                Console.WriteLine("{0}\t{1}\t\t{2}\t\t{3}", people.Id, people.FirstName, people.LastName, people.Age);
             }
         }
 
