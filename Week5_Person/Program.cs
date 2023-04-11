@@ -1,5 +1,6 @@
 ﻿namespace ExersicePerson
 {
+    //create person struct
     public struct Person
     {
         public int Id;
