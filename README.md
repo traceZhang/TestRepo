@@ -1,1 +1,1 @@
-This is the description of the project.
+This is the description of the project. Some changes
